@@ -28,5 +28,6 @@
               <Button Grid.Row="2" Grid.Column="0" Style="{StaticResource Botao}" x:Name="Romance" Clicked="Romance_Clicked"/>
         </Grid>
     </ContentPage.Content>
+    
 
 </ContentPage>

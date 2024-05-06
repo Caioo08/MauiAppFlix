@@ -1,6 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MauiAppFlix.Categorias.Aventura">
+             x:Class="MauiAppFlix.Categorias.aventura"
+             Title="aventura">
+    <VerticalStackLayout>
+        <ScrollView>
+            <Grid RowDefinitions="300, 300, 300" ColumnDefinitions="*,*" Padding="5">
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" Source="Lara_Croft_Tomb_Raider.jpg" x:Name="btnTomb" Clicked="btnTomb_Clicked" />
 
-</ResourceDictionary>
+                <ImageButton Aspect="AspectFill" Grid.Column="1" Grid.Row="0" Source="uncharted.jpg" x:Name="Uncharted" Clicked="Uncharted_Clicked"/>
+
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="1" Source="indiana.jpg" x:Name="btnIndiana" Clicked="btnIndiana_Clicked"/>
+            </Grid>
+        </ScrollView>
+    </VerticalStackLayout>
+</ContentPage>
