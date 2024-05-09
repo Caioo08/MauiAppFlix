@@ -11,4 +11,14 @@ public partial class Romance : ContentPage
     {
 
     }
+
+    private void btnAntesdevoce_Clicked(System.Object sender, System.EventArgs e)
+    {
+
+    }
+
+    private void btnRedencao_Clicked(System.Object sender, System.EventArgs e)
+    {
+
+    }
 }

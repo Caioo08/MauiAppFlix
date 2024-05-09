@@ -56,9 +56,14 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="Resources\Images\220px-The_Thing_Pôster.jpg" />
-	  <None Remove="Resources\Images\images (1).jpg" />
-	  <None Remove="Resources\Images\images.jpg" />
+	  <MauiImage Remove="Resources\Images\coisa.jpg" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Remove="Resources\Images\coisa.jpg" />
+	  <None Remove="Resources\Images\five.jpg" />
+	  <None Remove="Resources\Images\garota.jpg" />
+	  <None Remove="Resources\Images\it.jpg" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -73,12 +78,27 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Categorias\Acao.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Categorias\aventura.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Categorias\Romance.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Categorias\Terror.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="Categorias\Acao.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </None>
+	  <None Update="Categorias\Terror.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </None>
 	</ItemGroup>
 
 </Project>

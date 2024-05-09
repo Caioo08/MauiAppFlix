@@ -6,11 +6,11 @@
     <VerticalStackLayout>
         <ScrollView>
             <Grid RowDefinitions="300,300,300" ColumnDefinitions="*,*" Padding="5">
-                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" Source="enquanto.jpg" x:Name="btnEnquanto" Clicked="btnEnquanto_Clicked"/>
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" Source="five.jpg" x:Name="btnFive" Clicked=""/>
 
-                <ImageButton Aspect="AspectFill" Grid.Column="1" Grid.Row="0" Source="antesdevoce.jpg" x:Name="btnAntesdevoce" Clicked="btnAntesdevoce_Clicked"/>
+                <ImageButton Aspect="AspectFill" Grid.Column="1" Grid.Row="0" Source="garota.jpg" x:Name="btnGarota" Clicked="" />
 
-                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="1" Source="redencao.jpg" x:Name="btnRedencao" Clicked="btnRedencao_Clicked" />
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="1" Source="it.jpg" x:Name="btnIt" />
             </Grid>
         </ScrollView>
     </VerticalStackLayout>
