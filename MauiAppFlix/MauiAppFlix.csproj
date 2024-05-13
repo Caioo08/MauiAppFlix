@@ -73,11 +73,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Filmes\" />
-	  <Folder Include="Filmes\" />
-	</ItemGroup>
-
-	<ItemGroup>
 	  <MauiXaml Update="Categorias\acao.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -88,6 +83,12 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Categorias\Terror.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\miranha.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\velozes.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
