@@ -6,7 +6,7 @@
     <VerticalStackLayout>
         <ScrollView>
             <Grid RowDefinitions="300, 300, 300" ColumnDefinitions="*,*" Padding="5">
-                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" Source="Lara_Croft_Tomb_Raider.jpg" x:Name="btnTomb" Clicked="btnTomb_Clicked" />
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" Source="lara.jpg" x:Name="btnTomb" Clicked="btnTomb_Clicked" />
 
                 <ImageButton Aspect="AspectFill" Grid.Column="1" Grid.Row="0" Source="uncharted.jpg" x:Name="Uncharted" Clicked="Uncharted_Clicked"/>
 

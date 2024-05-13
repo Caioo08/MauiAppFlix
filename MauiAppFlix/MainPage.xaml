@@ -3,31 +3,18 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppFlix.MainPage">
 
-    <ContentPage.Resources>
-        <ResourceDictionary>
-            <Style x:Key="EstiloComum" TargetType="Button">
-                <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
-                <Setter Property="VerticalOptions" Value="Center"/>
-                <Setter Property="FontSize" Value="40"/>
-                <Setter Property="TextColor" Value="Black"/>
-            </Style>
-
-            <Style x:Key="Botao" TargetType="Button" BasedOn="{StaticResource EstiloComum}">
-                <Setter Property="BackgroundColor" Value="CornflowerBlue"/>
-            </Style>
-        </ResourceDictionary>
-    </ContentPage.Resources>
-
-    <ContentPage.Content>
-        <Grid RowDefinitions="*, *"
-              ColumnDefinitions="*, *">
-              
-              <Button Grid.Row="1" Grid.Column="0" Style="{StaticResource Botao}" x:Name="Aventura" Clicked="Aventura_Clicked"/>
-              <Button Grid.Row="1" Grid.Column="1" Style="{StaticResource Botao}" x:Name="Ação" Clicked="Ação_Clicked"/>
-
-              <Button Grid.Row="2" Grid.Column="0" Style="{StaticResource Botao}" x:Name="Romance" Clicked="Romance_Clicked"/>
-        </Grid>
-    </ContentPage.Content>
+    <ScrollView>
+        <Grid ColumnDefinitions="*,*"
+              RowSpacing="10" ColumnSpacing="10"
+              Padding="0" Margin="10"
+              VerticalOptions="FillAndExpand"
+              RowDefinitions="*, *, *, *, *">
+            <Button Grid.Row="0" Grid.Column="0" Text="Ação" Clicked="Button_Clicked"/>
+            <Button Grid.Row="0" Grid.Column="1" Text="Aventura" Clicked="Button_Clicked_1"/>
+            <Button Grid.Row="1" Grid.Column="0" Text="Romance" Clicked="Button_Clicked_2"/>
+            <Button Grid.Row="1" Grid.Column="1" Text="Terror" Clicked="Button_Clicked_3"/>
+        </Grid> 
+    </ScrollView>
     
 
 </ContentPage>
