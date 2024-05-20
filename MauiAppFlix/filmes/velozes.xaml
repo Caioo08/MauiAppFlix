@@ -3,14 +3,19 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppFlix.filmes.velozes"
              Title="velozes">
-    <VerticalStackLayout>
-        <Grid RowDefinitions="*, *" ColumnDefinitions="*">
-            <WebView Grid.Column="0" Grid.Row="0" Source="https://www.youtube.com/watch?v=a1w9x5U88jU"/>
+    <Grid RowDefinitions="*, *" ColumnDefinitions="*">
 
-        </Grid>
+        <WebView Grid.Column="0" Grid.Row="0" 
+        Source="https://www.youtube.com/watch?v=PnqUs3xiAVI" />
 
         <ScrollView Grid.Row="1" Grid.Column="0">
-            <Image Grid.Column="0" Grid.Row="0" x:Name="poster" HeightRequest="0"/>
+            <Grid RowDefinitions="*, *" ColumnDefinitions="*, *">
+                <Image Grid.Column="0" Grid.Row="0" 
+                   x:Name="poster" HeightRequest="300" />
+                <StackLayout VerticalOptions="CenterAndExpand" 
+                         Grid.Column="1" Grid.Row="0">
+                </StackLayout>
+            </Grid>
         </ScrollView>
-    </VerticalStackLayout>
+    </Grid>
 </ContentPage>
