@@ -1,9 +1,15 @@
+
 namespace MauiAppFlix.filmes;
 
 public partial class uncharted : ContentPage
 {
 	public uncharted()
 	{
-		InitializeComponent();
-	}
+        InitializeComponent();
+    }
+
+    private void InitializeComponent()
+    {
+        throw new NotImplementedException();
+    }
 }
