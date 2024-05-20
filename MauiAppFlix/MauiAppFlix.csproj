@@ -73,19 +73,64 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Categorias\acao.xaml">
+	  <Compile Update="Categorias\MainAventura.xaml.cs">
+	    <DependentUpon>MainAventura.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Categorias\MainAcao.xaml.cs">
+	    <DependentUpon>MainAcao.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Categorias\MainRomance.xaml.cs">
+	    <DependentUpon>MainRomance.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Categorias\MainTerror.xaml.cs">
+	    <DependentUpon>MainTerror.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Categorias\MainAcao.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Categorias\aventura.xaml">
+	  <MauiXaml Update="Categorias\MainAventura.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Categorias\Romance.xaml">
+	  <MauiXaml Update="Categorias\MainRomance.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Categorias\Terror.xaml">
+	  <MauiXaml Update="Categorias\MainTerror.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\antesdevoce.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\enquanto.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\esquadraoseis.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\five.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\garota.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\indiana.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\it.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\lara.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="filmes\miranha.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\redencao.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\uncharted.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="filmes\velozes.xaml">

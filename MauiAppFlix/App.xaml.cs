@@ -9,6 +9,7 @@ namespace MauiAppFlix
 
             MainPage = new AppShell();
         }
+
         protected override Window CreateWindow(IActivationState? activationState)
         {
             var window = base.CreateWindow(activationState);
