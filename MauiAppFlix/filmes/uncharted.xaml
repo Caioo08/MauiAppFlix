@@ -6,7 +6,7 @@
     <Grid RowDefinitions="*, *" ColumnDefinitions="*">
 
         <WebView Grid.Column="0" Grid.Row="0" 
-        Source="https://www.youtube.com/watch?v=6nzNdpJ3qMo" />
+        Source="https://www.youtube.com/embed/eHp3MbsCbMg?si=63lkEyt3oqmmAHue" />
 
         <ScrollView Grid.Row="1" Grid.Column="0">
             <Grid RowDefinitions="*, *" ColumnDefinitions="*, *">
@@ -17,21 +17,14 @@
                     <Label Text="Data de Lançamento"
                            Style="{StaticResource titulo}" />
 
-                    <Label Text="7 de março de 2019"
+                    <Label Text="17 de fevereiro de 2022"
                            Style="{StaticResource textoTitulo}" />
 
 
                     <Label Text="Direção" Margin="0, 20, 0, 0" Style="{StaticResource titulo}" />
                     <Label Text="Anna Boden, Ryan Fleck" Style="{StaticResource textoTitulo}" />
                 </StackLayout>
-                <StackLayout Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2">
-
-                    <Label Text="Sinopse" Style="{StaticResource titulo}" />
-
-                    <Label x:Name="sinopse" Text="textão sô"
-                           FontSize="Medium" Padding="5" />
-
-                </StackLayout>
+               
             </Grid>
         </ScrollView>
     </Grid>
